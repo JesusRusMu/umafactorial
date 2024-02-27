@@ -1,0 +1,40 @@
+COMANDOS GIT UTILIZADOS DURANTE LA PRÁCTICA
+
+•	git clone <url_del_repositorio>: Este comando lo hemos utilizado para crear una copia local de jun repositorio Git que se encuentra en GitHub.
+Ítems: 1
+
+•	cd <nombre_del_directorio>: El comando cd se utiliza para cambiar el directorio de trabajo actual en un sistema de archivos.
+Ítems: 1	
+
+•	git config user.name <nombre_usuario>: Es utilizado para configurar la información del usuario para poder realizar los commits.
+Ítems: 1
+
+•	git config user.email <correo_electronico>: Lo mismo que el comando anterior pero relacionando el correo electrónico. Los dos son necesarios.
+Ítems: 1
+
+•	git checkout -b <nombre_rama>: Crea una rama y cambia a ella para trabajar ahí.
+Ítems: 2,5,13.
+
+•	git checkout <nombre_rama>: La función de este comando es cambiar de rama.
+Ítems: 8, 11, 12, 15, 16, 17.
+
+•	notepad <archivo>: Utilizado para abrir un editor de texto (bloc de notas) para poder editarlo.
+Ítems: 2, 4, 6, 9, 11, 13, 14, 15, 18,  20.
+
+•	git add <archivo>: Tras realizar algún cambio en algún archivo lo añade al área de stagging justo antes de hacer algún commit. 
+Ítems: 3, 4, 7, 10, 11, 14, 16, 19.
+
+•	git commit -m <” Mensaje sobre el commit”>: Se utiliza para confirmar los cambios realizados en el área de stagging y poder subirlo al historial de commits del repositorio para poder tener acceso cuando sea necesario. Además, mediante ´-m´ podemos añadir un mensaje descriptivo sobre el commit para poder diferenciarlo si queremos acceder después.
+Ítems: 3, 4, 7, 10, 11, 14, 16, 19.
+
+•	git push origin <nombre_rama>: Este comando lo utilizamos para poder mandar los commits locales al repositorio de GitHub.
+Ítems: 5, 7, 10, 16, 19.
+
+•	git merge <nombre_rama>: Es utilizado para fusionar los cambios de una rama específica (nombre_rama) con la rama actual con la que se esté trabajando en ese momento.
+Ítems: 12, 17.
+
+•	git stash: Comando muy útil ya que se utiliza para guardar los cambios en el área de stagging sin realizar ningún commit y así evitamos realizar un commit incompleto.
+Ítems: 15
+
+•	git stash pop: El comando utilizado para restaurar lo que hemos guardado con el comando anterior.
+Ítems: 16.
